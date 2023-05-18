@@ -42,7 +42,7 @@ const router = new Router({
       name: 'IniciarSesion',
       children: [
         {
-          path: 'iniciar',
+          path: '',
           component: IngresarCuenta,
           name: 'IngresarCuenta'
         },
